@@ -89,7 +89,7 @@ const parseConfig = (config) => {
     verifyPreamble,
     optimizationUsed: solcSettings.optimizer.enabled ? 1 : 0,
     runs: solcSettings.optimizer.runs,
-    evmVersion: solcSettings.evmTarget,
+    evmVersion: solcSettings.evmVersion,
     license: config.license
   }
 }
